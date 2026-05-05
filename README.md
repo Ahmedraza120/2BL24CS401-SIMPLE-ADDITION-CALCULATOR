@@ -28,10 +28,12 @@ This is a Simple Addition Calculator built using Java Servlets. The user enters 
 ## Screenshots
 
 ### Input Form
-*(Place your screenshot here: screenshots/screenshot1.png)*
+<img width="714" height="342" alt="Screenshot 2026-05-05 122142" src="https://github.com/user-attachments/assets/70bb9460-73eb-43e3-bb86-7ca39d29fee7" />
+
 
 ### Output / Result Page
-*(Place your screenshot here: screenshots/screenshot2.png)*
+<img width="925" height="372" alt="Screenshot 2026-05-05 122130" src="https://github.com/user-attachments/assets/6407d06d-0f12-43b3-a174-6aad7519db75" />
+
 
 ## Servlet Concept Practiced
 This problem focuses on the use of **doGet** and **doPost** methods to handle form submissions and process request parameters using `HttpServletRequest`. It also demonstrates basic input validation and error handling within a Servlet.
