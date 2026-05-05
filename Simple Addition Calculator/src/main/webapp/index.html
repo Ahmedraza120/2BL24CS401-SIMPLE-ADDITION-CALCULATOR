@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Simple Addition Calculator</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 50px; }
+    .container { max-width: 400px; }
+    input[type="text"] { width: 100%; padding: 8px; margin: 10px 0; }
+    input[type="submit"] { padding: 10px 20px; background-color: #007bff; color: white; border: none; cursor: pointer; }
+    input[type="submit"]:hover { background-color: #0056b3; }
+</style>
+</head>
+<body>
+    <div class="container">
+        <h2>Simple Addition Calculator</h2>
+        <form action="AdditionServlet" method="post">
+            <label for="num1">First Number:</label>
+            <input type="text" id="num1" name="num1" required>
+            
+            <label for="num2">Second Number:</label>
+            <input type="text" id="num2" name="num2" required>
+            
+            <input type="submit" value="Calculate">
+        </form>
+    </div>
+</body>
+</html>
